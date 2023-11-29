@@ -1,2 +1,2 @@
-# ecc_site
+# eec_site
 Church Website using Django Framework
