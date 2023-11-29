@@ -1,0 +1,29 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/style_contact.css' %}">
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+<body>
+    <div class ="hero">
+        <video class = "back-video" autoplay loop muted playsInLine>
+            <source src="{% static 'polls/images/Tampa.mp4' %}" type="video/mp4">
+        </video>
+        <nav>
+            <ul class="pages">
+                <li><a href="/polls" >HOME</a></li>
+                <li><a href="/polls/about">ABOUT US</a></li>
+                <li><a href="/polls/ministries">MINISTRIES</a></li>
+                <li><a href="/polls/contact">CONTACT US</a></li>
+                <li><a href="/polls/giving">GIVING</a></li>
+            </ul>
+        </nav>
+        <div class = "main">
+            <h1>Please feel free to contact with us by calling any of our Eldership</h1>
+            <a href="tel:+1(813)-484-9312">Chair Elder Desalew</a>
+            <a href="tel:+1(813)-418-9008">Elder Abebe</a>
+            <a href="tel:+1(813)-484-9312">Elder Sileshi</a>
+            <h1>You can also contact us by email and by messaging us on our Facebook page as well!</h1>
+            <a href="https://www.facebook.com/EECTampa"><img src="{% static 'polls/images/facebook.svg'%}" class='logo'></a>
+            <h1>Email: eectampa@gmail.com</h1>
+        </div>
+    </div>
+</body>

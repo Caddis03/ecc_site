@@ -1,0 +1,38 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/style_index.css' %}">
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+<body>
+
+    <div class="hero">
+       
+        <video class="back-video" autoplay loop muted playsInline>
+            <source src="{%static 'polls/images/Tampa.mp4'%}" type="video/mp4">
+        </video>  
+
+        <nav>
+
+            <img src="{%static 'polls/images/logo_size_adjust.png' %}" class="logo"> 
+
+            <ul class="pages">
+
+                    <li><a href="/polls">HOME</a></li>
+                    <li><a href="/polls/about">ABOUT US</a></li>
+                    <li><a href="/polls/ministries">MINISTRIES</a></li>
+                    <li><a href="/polls/contact">CONTACT US</a></li>
+                    <li><a href="/polls/giving">GIVING</a></li>
+
+            </ul>
+
+        </nav>
+        
+        <div class="main">
+
+            <h1>Ethiopian Evangelical Church of Tampa</h1>
+            <a href="https://www.youtube.com/@EECTampa">Join us Online</a>
+
+        </div>
+
+    </div>
+
+</body>

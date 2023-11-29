@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    /*overflow:auto;*/
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*top: auto;*/
+}
+
+body {
+    background-attachment: fixed;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:250px;
+}
+
+nav .logo {
+    width: 800px;   
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 40px;
+    transition: 0.8s;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    transition: transform 0.8s;
+}
+li a:visited{
+    text-decoration:none;
+    color:white;
+}
+li a:current{
+    text-decoration:none;
+    color:red;
+}
+.other li {
+    color:white;
+}
+nav ul li a:hover{
+    -webkit-text-stroke: 0.5px black;
+    color:goldenrod;
+}
+nav ul li:hover{
+    transform: translateY(-10px);
+}
+.main {
+    padding-top:550px;
+    text-align:left;
+    background-color: rgba(0,0,0,0.2);
+}
+.main h1 {
+    font-size: 25px;
+    color:white;
+    font-weight: 600;
+    transition: 0.5s;
+    padding-bottom: 25px;
+}
+
+.main h2 {
+    font-size: 18px;
+    color:white;
+    font-weight: 600;
+    transition: 0.5s;
+    padding-bottom:25px;
+}
+
+.main h1:hover{
+    -webkit-text-stroke: 2px goldenrod;
+    color: transparent;
+}
+
+.scroll {
+    background-color: black;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 40px;
+    margin-top: 16px;
+    transition: 0.5s;
+}
+.address{
+    text-decoration:none;
+    color: goldenrod;
+}
+.main a:hover{
+    -webkit-text-stroke: 2px goldenrod;
+    color: transparent;
+}
+.main .logo{
+    width: 50px;
+}
+.back-video{
+    position:fixed;
+    right: 0;
+    bottom: auto;
+    z-index: -1;
+    background-attachment:fixed;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}

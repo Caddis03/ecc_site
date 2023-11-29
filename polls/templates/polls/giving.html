@@ -1,0 +1,30 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'polls/style_giving.css' %}">
+
+<body>
+    <div class ="hero">
+        <video class = "back-video" autoplay loop muted playsInLine>
+            <source src="{% static 'polls/images/Tampa.mp4' %}" type="video/mp4">
+        </video>
+        <nav>
+            <ul class="pages">
+                <li><a href="/polls" >HOME</a></li>
+                <li><a href="/polls/about">ABOUT US</a></li>
+                <li><a href="/polls/ministries">MINISTRIES</a></li>
+                <li><a href="/polls/contact">CONTACT US</a></li>
+                <li><a href="/polls/giving">GIVING</a></li>
+            </ul>
+        </nav>
+        <div class = "main">
+            <h1>You can support our ministries by either check, cash, or via Zelle.</h1>
+            <h1>To give via Zelle: eectampa@gmail.com</h1>
+            <a href="https://www.zellepay.com"><img src="{% static 'polls/images/Zelle.png'%}" class="logo"></a>
+        </div>
+    </div>
+    <div class="hero">
+        <video class = "back-video" autoplay loop muted playsInLine>
+            <source src="{% static 'polls/images/Tampa.mp4' %}" type="video/mp4">
+        </video>
+    </div>
+</body>

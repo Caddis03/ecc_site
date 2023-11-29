@@ -1,0 +1,24 @@
+li a, a {
+    color: green;
+
+    text-align: center;
+}
+
+fieldset {
+    color: red;
+
+    text-align: center;
+}
+h1, ul {
+    color: red;
+
+    text-align: center;
+}
+body {
+    background: white
+    url("images/psalms271.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
